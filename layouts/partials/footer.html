@@ -1,0 +1,18 @@
+<footer class="bg-gray-800 text-white p-6">
+    {{ if .Site.Menus.foot }}
+    <div class="flex justify-center w-full md:flex md:flex-row sm:items-center sm:w-auto mb-4">
+        <div>
+            {{ range .Site.Menus.foot }}
+            <a href="{{ .URL }}"
+                class="no-underline block sm:inline-block text-gray-400 hover:text-white">
+                {{ .Name }}
+            </a>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+    <div class="container mr-auto ml-auto">
+        <p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}" class="hover:text-gray-500">{{ .Site.Title }}</a></p>
+    </div>
+    <script src="{{ "/js/switch.js" | relURL }}"></script>
+</footer>

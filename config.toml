@@ -7,6 +7,8 @@ enableInlineShortcodes = true
 theme = "Blonde"
 enableRobotsTXT = true
 
+#custom_css = ["css/custom.css"]
+
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
 #hasCJKLanguage = true
 
@@ -39,7 +41,7 @@ tagsLimit = 30
     archives = true
     categories = true
     tags = true
-    recentposts = false
+    recentposts = true
     search = false
 
 # If you're using Yandex.Metrica, you can enable this feature.
