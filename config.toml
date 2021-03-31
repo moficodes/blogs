@@ -14,7 +14,7 @@ enableRobotsTXT = true
 #googleAnalytics = "G-1234567890"
 
 # Disqus Comment System
-#disqusShortname = ""
+disqusShortname = "moficodes"
 
 [params]
 # The number of articles to be displayed on a single page.
