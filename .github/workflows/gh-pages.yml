@@ -17,10 +17,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - name: Globally install postcss
-        run: npm install -g postcss-cli
-      - name: Globally install autoprefixer
-        run: npm install -g autoprefixer
+      - name: Globally install 
+        run: npm install -g postcss postcss-cli autoprefixer
       - name: NPM install
         working-directory: ./themes/Blonde
         run: npm install
