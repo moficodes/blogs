@@ -5,6 +5,7 @@ draft: false
 author: "Mofi Rahman"
 description: "Introto go tutorial series"
 image: "image/gopher.jpg"
+imageAttr: "Gopher"
 categories:
   - go
 tags:

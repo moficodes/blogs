@@ -20,7 +20,7 @@
             </div>
         </aside>
         {{ if .Params.image }}
-        <img class="my-4" src="{{ .Params.image | absURL }}">
+        <img class="my-4" alt="{{ .Params.imageAttr }}" src="{{ .Params.image | absURL }}">
         {{ end }}
         <div class="content">{{.Content}}</div>
         <hr class="py-2">
@@ -35,7 +35,7 @@
                 {{ end }}
             </div>
             {{ end }}
-            <div class="grid grid-cols-2">
+            {{/*  <div class="grid grid-cols-2">
                 <div class="col-span-1">
                     {{ with .PrevInSection }}
                     <a class="previous lg:text-2xl" href="{{.Permalink}}">
@@ -52,6 +52,9 @@
                     </div>
                 </a>
                 {{ end }}
+            </div>  */}}
+            <div class="lg:hidden">
+                {{ partial "widgets/recent.html" . }}
             </div>
         </aside>
         <hr class="py-2">

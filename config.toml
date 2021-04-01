@@ -35,7 +35,7 @@ tagsLimit = 30
     thumbnail_height = "h-48"
 
     # https://tailwindcss.com/docs/width
-    thumbnail_width = "w-auto"
+    thumbnail_width = "w-72"
 
   [params.widgets]
     archives = true
