@@ -3,15 +3,21 @@
 {{- partial "head.html" . -}}
 
 <body class="font-sans text-base md:text-sm lg:text-lg font-light">
+    
     <div class="min-h-screen flex flex-col bg-gray-100">
+
+        <!-- some content !-->
+
         {{- partial "header.html" . -}}
         <div class="container mx-auto mt-4 flex-grow" id="content">
             <div class="lg:mx-5">
-            {{- block "main" . }}{{- end }}
+                {{- block "main" . }}{{- end }}
             </div>
         </div>
         {{- partial "footer.html" . -}}
+
     </div>
+    {{ partial "addthis-script" . }}
 </body>
 
 </html>

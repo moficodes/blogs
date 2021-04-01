@@ -22,6 +22,8 @@ disqusShortname = "moficodes"
 # The number of articles to be displayed on a single page.
 paginator_pages = "10"
 
+addThis = "ra-60655e9d152118d4"
+
 # Enable this if you want the archive list to be in a drop-down format.
 archive_dropdown = "false"
 
