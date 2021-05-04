@@ -1,5 +1,5 @@
 ---
-title: "Go Crash Course Part I"
+title: "Go Crash Course Part I: Introduction"
 date: 2021-05-04T02:40:30-04:00
 draft: false
 author: "Mofi Rahman"

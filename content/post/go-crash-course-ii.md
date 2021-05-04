@@ -1,5 +1,5 @@
 ---
-title: "Go Crash Course Part II"
+title: "Go Crash Course Part II: Package, Import, and Export"
 date: 2021-05-04T04:18:04-04:00
 draft: false
 author: "Mofi Rahman"
