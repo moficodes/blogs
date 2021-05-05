@@ -176,3 +176,4 @@ The same uppercase rule is true for imported packages too.
 
 This is Part 2 of this Go crash course series.
 
+[Part 3](/post/go-crash-course-iii/)

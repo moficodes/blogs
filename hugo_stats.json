@@ -9,9 +9,11 @@
       "button",
       "code",
       "div",
+      "em",
       "footer",
       "h1",
       "h2",
+      "h3",
       "h4",
       "head",
       "hr",
@@ -167,6 +169,7 @@
       "w-full"
     ],
     "ids": [
+      "anatomy-of-functions",
       "categories",
       "content",
       "dark-mode-theme",
@@ -177,20 +180,29 @@
       "date",
       "disqus_thread",
       "exporting",
+      "function",
+      "functions-are-values",
       "get-coding",
       "go",
       "go-features",
       "hamburgerbtn",
       "import",
+      "init",
       "installation",
       "main",
       "meta",
       "mobileMenu",
+      "named-returns",
+      "naming-functions",
+      "naming-variables",
       "next-steps",
+      "overloading",
       "package-scope",
+      "shadowing",
       "tags",
       "thumb",
-      "title"
+      "title",
+      "variables"
     ]
   }
 }
