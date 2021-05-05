@@ -23,6 +23,7 @@
         <img class="my-4" alt="{{ .Params.imageAttr }}" src="{{ .Params.image | absURL }}">
         {{ end }}
         <div class="content">{{.Content}}</div>
+        <a href="https://twitter.com/moficodes?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @moficodes</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <hr class="py-2">
         <aside id="meta">
             {{ with .Params.categories }}
@@ -58,11 +59,11 @@
             </div>
         </aside>
         <hr class="py-2">
-        {{ partial "addthis" . }}
         <div class="mb-3">
             {{ template "_internal/disqus.html" . }}
         </div>
     </div>
+    
     <div class="hidden lg:block lg:col-span-1">
         {{ partial "widgets/search.html" . }}
         {{ partial "widgets/archive.html" . }}
@@ -70,5 +71,6 @@
         {{ partial "widgets/tags.html" . }}
         {{ partial "widgets/recent.html" . }}
     </div>
+
 </div>
 {{ end }}
