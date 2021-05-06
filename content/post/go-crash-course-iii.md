@@ -176,3 +176,5 @@ Greet := func() string {
 ## Next Steps
 
 This is Part 3 of this Go crash course series.
+
+[Part IV](/post/go-crash-course-iv/)
