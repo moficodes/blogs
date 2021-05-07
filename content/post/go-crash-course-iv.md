@@ -224,3 +224,5 @@ Type inference also happens for numeric constants when passing to a function if 
 ## Next Steps 
 
 This is Part 4 of this Go crash course series.
+
+[Part 5](/post/go-crash-course-v/)
