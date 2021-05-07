@@ -3,7 +3,7 @@ title: "Go Crash Course V: Constants, Operators and Reserved Keywords"
 date: 2021-05-07T02:25:06-04:00
 draft: false
 author: "Mofi Rahman"
-description: "Intro to go tutorial series part IV"
+description: "Intro to go tutorial series part V"
 image: "image/get-going-part-v.png"
 imageAttr: "Gopher"
 categories:
@@ -141,3 +141,5 @@ var c int = 10 // this doesnt work now
 ## Next Steps 
 
 This is Part 5 of this Go crash course series.
+
+[Part 6](/post/go-crash-course-vi/)
