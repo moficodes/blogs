@@ -68,3 +68,5 @@ Just block level shadowing is uncommon. There are rare use cases for this. But I
 ## Next Steps
 
 This is Part 6 of this Go crash course series.
+
+[Part 7](/post/go-crash-course-vii/)
