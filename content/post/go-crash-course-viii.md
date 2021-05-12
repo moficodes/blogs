@@ -180,4 +180,4 @@ For example if we look at the source code for [net/http](https://golang.org/src/
 
 ## Next Steps
 
-This is Part 7 of this Go crash course series.
+This is Part 8 of this Go crash course series.
