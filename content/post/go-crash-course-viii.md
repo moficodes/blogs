@@ -178,3 +178,6 @@ for{
 
 For example if we look at the source code for [net/http](https://golang.org/src/net/http/server.go?s=99574:99629#L2980) we can see an example of indefinite for loop that waits for new connection to server.
 
+## Next Steps
+
+This is Part 7 of this Go crash course series.
