@@ -208,6 +208,7 @@
       "if",
       "if---else-if---else",
       "if-with-statement",
+      "implementing-interface",
       "import",
       "inference",
       "init",
@@ -241,7 +242,9 @@
       "thumb",
       "title",
       "type-alias-and-type-definition",
+      "type-cast",
       "type-conversion",
+      "type-switches",
       "types",
       "variables"
     ]

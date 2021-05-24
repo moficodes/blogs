@@ -153,5 +153,4 @@ The main difference between this type of composition and inheritance is that inh
 
 This is Part 9 of this Go crash course series.
 
-
-
+[Part 10](/post/go-crash-course-x/)
