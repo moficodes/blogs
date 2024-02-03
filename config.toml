@@ -15,9 +15,6 @@ enableRobotsTXT = true
 # If you're using Google Analytics, you can enable this feature.
 #googleAnalytics = "G-1234567890"
 
-# Disqus Comment System
-disqusShortname = "moficodes"
-
 [params]
 # The number of articles to be displayed on a single page.
 paginator_pages = "10"
