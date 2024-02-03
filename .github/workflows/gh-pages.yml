@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '20'
       - name: Globally install 
         run: npm install -g postcss postcss-cli autoprefixer
       - name: NPM install
